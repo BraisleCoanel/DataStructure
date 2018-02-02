@@ -22,7 +22,7 @@ void Controller::findMaxAndMin()
 {
     Timer searchTimer;
     searchTimer .startTimer();
-    vector<CrimeData myData = FileController :: readCrimeDataToVector("/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Data/crime.csv");
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Data/crime.csv");
     
     int minIndex = 0;
     int maxIndex = 0;
@@ -34,7 +34,7 @@ void Controller::findMaxAndMin()
             minIndex = index;
         }
         
-        if (myData [maxIndex] myData[index])
+        if (myData [maxIndex] < myData[index])
         {
             maxIndex = index;
         }

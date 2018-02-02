@@ -6,7 +6,7 @@
 //  Copyright © 2018 Martinson, Branton. All rights reserved.
 //
 
-#include "Controller/Controller.hpp"
+#include "Controller/Tools/Controller.hpp"
 int main()
 {
     Controller app;
