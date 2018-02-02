@@ -61,8 +61,32 @@
 		B7319A8F20225EFA003EAAB8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B7CC5F882024FF3800A625CE /* Structures */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B7CC5F882024FF3800A625CE /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				B7CC5F8D202504CD00A625CE /* NonLinear */,
+				B7CC5F892024FF4E00A625CE /* Linear */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		B7CC5F892024FF4E00A625CE /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
+		B7CC5F8D202504CD00A625CE /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NonLinear;
 			sourceTree = "<group>";
 		};
 		B7EAF4362022448000A634A4 = {
