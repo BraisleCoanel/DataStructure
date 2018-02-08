@@ -10,12 +10,13 @@
 #define FileController_hpp
 
 #include <iostream>
-#include "/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Data/CrimeData.hpp"
+#include "../Data/CrimeData.hpp"
 #include <string>
 #include <fstream>
 #include <vector>
 #include <sstream>
 
+using namespace std;
 class FileController
 {
 public:
