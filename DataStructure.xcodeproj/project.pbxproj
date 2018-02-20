@@ -43,6 +43,7 @@
 		B7EAF44D202244D300A634A4 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		B7EAF4502022470F00A634A4 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		B7EAF4512022470F00A634A4 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		B7F7E8FA203CAFEF00BB8AEE /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B7EABA89202A363F0092C268 /* Array.hpp */,
+				B7F7E8FA203CAFEF00BB8AEE /* List.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
