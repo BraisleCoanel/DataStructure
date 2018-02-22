@@ -67,7 +67,6 @@
 		B7319A8F20225EFA003EAAB8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B7E3849C202CD62A006A7407 /* Node */,
 				B7CC5F882024FF3800A625CE /* Structures */,
 			);
 			path = Model;
@@ -76,8 +75,7 @@
 		B7CC5F882024FF3800A625CE /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				B7CC5F8D202504CD00A625CE /* NonLinear */,
-				B7CC5F892024FF4E00A625CE /* Linear */,
+				B7E3849C202CD62A006A7407 /* Node */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -102,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				B7E384A0202CD66B006A7407 /* Node.hpp */,
+				B7CC5F892024FF4E00A625CE /* Linear */,
+				B7CC5F8D202504CD00A625CE /* NonLinear */,
 			);
 			path = Node;
 			sourceTree = "<group>";
