@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 template <class Type>
-Node
+class Node
 {
   //This section is available to ALL subclasses of Node
 protected:
@@ -38,7 +38,7 @@ Node<Type> :: Node(Type data)
 }
 
 template <class Type>
-void Node<type> :: setData(Type data)
+void Node<Type> :: setData(Type data)
 {
     this->data = data;
 }
