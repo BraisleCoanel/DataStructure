@@ -21,7 +21,7 @@ public:
     LinearNode();
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
-    void setNextNodes(LinearNode<Type> * next);
+    void setNextNode(LinearNode<Type> * next);
     LinearNode<Type> * getNextNode();
 };
 

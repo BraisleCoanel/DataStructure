@@ -22,11 +22,12 @@ public:
     void testListWithData();
 };
 
+void LinkedListTester :: testListBasics()
+{
+    LinkedList<int> isnumber;
+    numbers.add(9);
+}
 
 #endif /* LinkedListTester_hpp */
 
-void LinkedListTester :: testListBasics()
-{
-    LinkedList<int> numbers;
-    numbers.add(9);
-}
+
