@@ -24,8 +24,8 @@ public:
 
 void LinkedListTester :: testListBasics()
 {
-    LinkedList<int> isnumber;
-    numbers.add(9);
+//    LinkedList<int> isnumber;
+//    numbers.add(9);
 }
 
 #endif /* LinkedListTester_hpp */
