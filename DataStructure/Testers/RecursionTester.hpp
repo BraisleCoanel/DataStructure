@@ -6,8 +6,8 @@
 //  Copyright © 2018 Martinson, Branton. All rights reserved.
 //
 
-#ifndef RecursionTest_hpp
-#define RecursionTest_hpp
+#ifndef RecursionTester_hpp
+#define RecursionTester_hpp
 
 #include <iostream>
 #include <string>
@@ -22,7 +22,7 @@ private:
     string mystery(string word);
 public:
     void testRecursionNumbers();
-    void textRecursionString();
+    void testRecursionString();
 };
 
 #endif /* RecursionTest_hpp */

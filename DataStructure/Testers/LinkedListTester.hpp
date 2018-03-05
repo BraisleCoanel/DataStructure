@@ -10,7 +10,7 @@
 #define LinkedListTester_hpp
 
 #include <iostream>
-#include "../Model/Node/Linear/List.hpp"
+#include "../Model/Structures/Linear/List.hpp"
 #include "../Controller/FileController.hpp"
 #include "../Controller/Tools/Timer.hpp"
 #include "../Data/CrimeData.hpp"

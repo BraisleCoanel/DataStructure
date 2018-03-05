@@ -13,6 +13,9 @@
 #include <vector>
 #include "Timer.hpp"
 #include "FileController.hpp"
+#include "/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Model/Structures/Linear/Array.hpp"
+#include "/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Testers/RecursionTester.cpp"
+#include "/Users/bmar8200/Documents/AfternoonC++/DataStructure/DataStructure/Testers/RecursionTester.hpp"
 
 class Controller
 {
