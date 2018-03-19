@@ -10,7 +10,7 @@
 
 int RecursionTester :: fib(int number)
 {
-    if (number == 0 || number == 1)
+    if (number == 0 || number == 1) //If the number isn't 0 or 1 it goes to else
     {
         return 1;
     }
