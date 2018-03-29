@@ -17,6 +17,7 @@
 		B7EAF44E202244D300A634A4 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7EAF44C202244D300A634A4 /* Controller.cpp */; };
 		B7EAF4522022470F00A634A4 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7EAF4502022470F00A634A4 /* Timer.cpp */; };
 		B7ED3330204DC5310025CF4B /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7ED332E204DC5310025CF4B /* RecursionTester.cpp */; };
+		B7FC5972206D662900510E56 /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7FC5970206D662900510E56 /* BinarySearchTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		B7ED332E204DC5310025CF4B /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
 		B7ED332F204DC5310025CF4B /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		B7F7E8FA203CAFEF00BB8AEE /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		B7FC5970206D662900510E56 /* BinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
+		B7FC5971206D662900510E56 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				B7114ED5206037FF00D172B3 /* Graph.cpp */,
 				B7114ED6206037FF00D172B3 /* Graph.hpp */,
+				B7FC5970206D662900510E56 /* BinarySearchTree.cpp */,
+				B7FC5971206D662900510E56 /* BinarySearchTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				B7EAF44B202244AD00A634A4 /* Runner.cpp in Sources */,
 				B7ED3330204DC5310025CF4B /* RecursionTester.cpp in Sources */,
 				B7EA2D48203F5352004D873C /* LinkedListTester.cpp in Sources */,
+				B7FC5972206D662900510E56 /* BinarySearchTree.cpp in Sources */,
 				B7EABA87202A33D20092C268 /* ArrayTester.cpp in Sources */,
 				B7EAF44E202244D300A634A4 /* Controller.cpp in Sources */,
 			);
