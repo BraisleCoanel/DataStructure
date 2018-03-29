@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>50</y>
+      <w>250</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>bg=green
+Node&lt;Type&gt;
+--
+
+#data : Type
+
+--
++Node() : constructor
++Node(Type data) : constructor
++getData() : Type
++setData(Type data) : Type</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>50</y>
+      <w>450</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>bg=magenta
+BinaryTreeNode&lt;Type&gt;
+--
+
+- root : BinaryTreeNode&lt;Type&gt;*
+- left : BinaryTreeNode&lt;Type&gt;*
+- right : BinaryTreeNode&lt;Type&gt;*
+
+--
++ BinaryTreeNode() : constructor
++ BinaryTreeNode(Type data) : constructor
+
++ getRoot() : BinaryTreeNode&lt;Type&gt;*
++ getLeft() : BinaryTreeNode&lt;Type&gt;*
++ getRight() : BinaryTreeNode&lt;Type&gt;*
+
++ setRootNode(BinaryTreeNode&lt;Type&gt; *) : void
++ setLeftNode(BinaryTreeNode&lt;Type&gt; *) : void
++ setRightNode(BinaryTreeNode&lt;Type&gt; *) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>150</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Extends</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+</diagram>
