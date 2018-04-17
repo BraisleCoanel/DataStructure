@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7085CD720866DEA000226A7 /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7085CD520866DEA000226A7 /* AVLTree.cpp */; };
 		B7114ED7206037FF00D172B3 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7114ED5206037FF00D172B3 /* Graph.cpp */; };
 		B7319A8D20225D74003EAAB8 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7319A8B20225D73003EAAB8 /* CrimeData.cpp */; };
 		B7BB579A205AEACB0028A07A /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7BB5798205AEACB0028A07A /* SortingTester.cpp */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B7085CD520866DEA000226A7 /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
+		B7085CD620866DEA000226A7 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		B7114ED5206037FF00D172B3 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		B7114ED6206037FF00D172B3 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		B7319A8B20225D73003EAAB8 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				B7114ED6206037FF00D172B3 /* Graph.hpp */,
 				B7FC5970206D662900510E56 /* BinarySearchTree.cpp */,
 				B7FC5971206D662900510E56 /* BinarySearchTree.hpp */,
+				B7085CD520866DEA000226A7 /* AVLTree.cpp */,
+				B7085CD620866DEA000226A7 /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				B7319A8D20225D74003EAAB8 /* CrimeData.cpp in Sources */,
 				B7EAF4522022470F00A634A4 /* Timer.cpp in Sources */,
 				B7CC5F872024EB2D00A625CE /* FileController.cpp in Sources */,
+				B7085CD720866DEA000226A7 /* AVLTree.cpp in Sources */,
 				B7BB579A205AEACB0028A07A /* SortingTester.cpp in Sources */,
 				B7114ED7206037FF00D172B3 /* Graph.cpp in Sources */,
 				B7EAF44B202244AD00A634A4 /* Runner.cpp in Sources */,
