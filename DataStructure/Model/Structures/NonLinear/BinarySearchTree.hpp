@@ -57,7 +57,7 @@ public:
     type findMinimum();
     Type findMaximum();
 };
-#endif /* BinarySearchTree_hpp */
+
 
 
 
@@ -109,3 +109,4 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
 }
 
 
+#endif /* BinarySearchTree_hpp */
