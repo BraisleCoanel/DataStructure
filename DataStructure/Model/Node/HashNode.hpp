@@ -23,6 +23,22 @@ public:
     
 };
 
-template 
+template <class Type>
+HashNode<Type> :: HashNode()
+{
+    this->key = 0;
+}
+
+template <class Type>
+HashNode<Type> :: HashNode(Type data) : Node<Type>(data)
+{
+    this->key = (long) &data;
+}
+
+template <class Type>
+long HashNode<Type> :: getKey() const
+{
+    return this->key;
+}
 
 #endif /* HashNode_hpp */
